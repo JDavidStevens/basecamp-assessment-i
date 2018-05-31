@@ -56,6 +56,6 @@ describe('sum', function () {
 
 describe('greeter', function () {
 	it('should return the correct response', function () {
-		expect(greeter('Bryan', 28)).toEqual(`Hi! I am David and I am 38 years old`)
+		expect(greeter('David', 38)).toEqual(`Hi! I am David and I am 39 years old`)
 	})
 })
